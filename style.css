@@ -76,7 +76,7 @@ p {
     font-weight: bold;
 }
 
-.info-text>p {
+.info-text>p, .sugo-main > p {
     margin: 0.4rem;
     color: black;
 }
@@ -98,3 +98,8 @@ p {
     margin: 1rem;
     padding: 0.3rem;
 }
+
+.sugo-main {
+    display: flex;
+}
+
