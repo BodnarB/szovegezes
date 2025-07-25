@@ -5,11 +5,20 @@ let guestTeamText = document.querySelector('.guest-team-text')
 let teamnameH = document.querySelector('#teamname-h')
 let teamnameG = document.querySelector('#teamname-g')
 let mainTextCopBtn = document.querySelector('#main-text-copy')
+let teamLoadBtn = document.querySelector('.team-load')
+let storedTeam
 
 let csapatok = {
     home: {},
     guest: {}
 }
+
+fetch('./tempteam.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log("Versenyzők listája:", data)
+        storedTeam = data
+    })
 
 
 // Szöveg -> { mezszám: név } objektummá alakítás
@@ -29,6 +38,11 @@ function parseCsapat(szoveg) {
     return csapat
 }
 
+teamLoadBtn.addEventListener('click', () => {
+    homeTeamText.value = storedTeam.join('\n')
+    csapatok.home = parseCsapat(homeTeamText.value)
+})
+
 homeTeamText.addEventListener('input', () => {
     csapatok.home = parseCsapat(homeTeamText.value)
 })
@@ -43,15 +57,6 @@ szovegTextbox.addEventListener('input', () => {
     szoveg = szoveg.replace(/-h-/g, teamnameH.value)
     szoveg = szoveg.replace(/-g-/g, teamnameG.value)
 
-    // const newText = szoveg.replace(/([hg])(\d{1,2})/g, (match, csapat, mezszam) => {
-    //     if (csapat === 'h' && csapatok.home?.[mezszam]) {
-    //         return csapatok.home[mezszam]
-    //     } else if (csapat === 'g' && csapatok.guest?.[mezszam]) {
-    //         return csapatok.guest[mezszam]
-    //     } else {
-    //         return match
-    //     }
-    // })
     const newText = szoveg.replace(/(\d{1,2})([hg])/g, (match, mezszam, csapat) => {
         if (csapat === 'h' && csapatok.home?.[mezszam]) {
             return csapatok.home[mezszam]
