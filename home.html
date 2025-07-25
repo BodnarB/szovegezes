@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szövegezés</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class='szoveg-div-box'>
+        <p class='text-p'>Szöveg</p>
+        <textarea name="szoveg-box" class='textbox szoveg-textbox' id="szoveg-box"
+            placeholder='Szerkesztő rész'></textarea>
+        <textarea class='textbox text-preview' placeholder='Végső szöveg'></textarea>
+        <button id='main-text-copy'>Szöveg másolása</button>
+    </div>
+    <div class='team-big-div'>
+        <div class='texbox-div'>
+            <p class='team-text'>Home team <span class="kiemelt-p">(h)</span></p>
+            <input type="text" class='textbox-teamname textbox' id='teamname-h' placeholder='Klubnév/Ország'>
+            <textarea name='home-team' class="home-team-text team-textbox textbox" id="home-team-text"
+                placeholder='Játékoskeret'></textarea>
+            <button disabled>Mentés</button>
+        </div>
+        <div class='texbox-div'>
+            <p class='team-text'>Guest team <span class="kiemelt-p">(g)</span></p>
+            <input type="text" class='textbox-teamname textbox' id='teamname-g' placeholder='Klubnév/Ország'>
+            <textarea name='guest-team' class="guest-team-text team-textbox textbox" id="guest-team-text"
+                placeholder='Játékoskeret'></textarea>
+            <button disabled>Mentés</button>
+        </div>
+    </div>
+    <div class='sugo'>
+        <img src="./assets/info-circle.svg" alt="info">
+        <div class='info-text'>
+            <p>
+                Névcseréhez pl.:
+                <span class="kiemelt-p">3h</span> => Manhercz Krisztián,
+                <span class="kiemelt-p">14g</span> => Biel Gomila Faiges
+            </p>
+        </div>
+        <div class='info-text'>
+            <p>
+                Csapatnévhez:
+                <span class="kiemelt-p">-h-</span> vagy
+                <span class="kiemelt-p">-g-</span>
+            </p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

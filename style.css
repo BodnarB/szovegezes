@@ -1,0 +1,89 @@
+html {
+    font-family: Montserrat;
+}
+
+body {
+    background-color: rgb(55, 55, 55)
+}
+
+p {
+    color: whitesmoke;
+}
+
+.team-textbox {
+    margin: 1rem auto;
+    width: 80%;
+    min-height: 200px;
+    border: 1px solid rgb(141, 141, 141);
+    border-radius: 0.1rem;
+}
+
+.texbox-div {
+    width: 40%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-big-div {
+    display: flex;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.szoveg-div-box {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-p {
+    margin: 0.5rem;
+}
+
+.szoveg-textbox {
+    width: 80%;
+    min-height: 200px;
+
+}
+
+.textbox {
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 0.1rem;
+    padding: 0.7rem;
+}
+
+.text-preview {
+    margin: 1rem;
+    width: 80%;
+    min-height: 150px;
+}
+
+.textbox-teamname {
+    margin: 0.5rem;
+}
+
+.sugo {
+    background-color: rgb(226, 226, 226);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.kiemelt-p {
+    font-weight: bold;
+}
+
+.info-text>p {
+    margin: 0.4rem;
+    color: black;
+}
+
+#main-text-copy {
+    padding: 0.3rem;
+    font-variant: small-caps;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
