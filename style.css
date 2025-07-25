@@ -91,4 +91,10 @@ p {
 .team-load {
     margin: 1rem;
     padding: 0.3rem;
+    cursor: pointer;
+}
+
+#event {
+    margin: 1rem;
+    padding: 0.3rem;
 }

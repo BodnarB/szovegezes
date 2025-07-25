@@ -7,17 +7,32 @@ let teamnameG = document.querySelector('#teamname-g')
 let mainTextCopBtn = document.querySelector('#main-text-copy')
 let teamLoadBtn = document.querySelector('.team-load')
 let storedTeam
+let eventValue = document.querySelector('#event')
+let currentEvent = 'harmadik szabadedzésén'
 
 let csapatok = {
     home: {},
     guest: {}
 }
 
+
+// ideiglenes SBK-ra
+szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 26-án.`
+
+eventValue.addEventListener('change', () => {
+    currentEvent = eventValue.options[eventValue.selectedIndex].text
+    szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 26-án.`
+})
+// ideiglenes SBK-ra
+
+
+
 fetch('./tempteam.json')
     .then(response => response.json())
     .then(data => {
-        console.log("Versenyzők listája:", data)
         storedTeam = data
+        homeTeamText.value = storedTeam.join('\n')
+        csapatok.home = parseCsapat(homeTeamText.value)
     })
 
 
@@ -38,10 +53,12 @@ function parseCsapat(szoveg) {
     return csapat
 }
 
-teamLoadBtn.addEventListener('click', () => {
-    homeTeamText.value = storedTeam.join('\n')
-    csapatok.home = parseCsapat(homeTeamText.value)
-})
+// ideiglenes SBK-ra
+// teamLoadBtn.addEventListener('click', () => {
+// homeTeamText.value = storedTeam.join('\n')
+// csapatok.home = parseCsapat(homeTeamText.value)
+// })
+// ideiglenes SBK-ra
 
 homeTeamText.addEventListener('input', () => {
     csapatok.home = parseCsapat(homeTeamText.value)
