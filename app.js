@@ -8,7 +8,7 @@ let mainTextCopBtn = document.querySelector('#main-text-copy')
 let teamLoadBtn = document.querySelector('.team-load')
 let storedTeam
 let eventValue = document.querySelector('#event')
-let currentEvent = 'harmadik szabadedzésén'
+let currentEvent = 'Superpole versenyén'
 
 let csapatok = {
     home: {},
