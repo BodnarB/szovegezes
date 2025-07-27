@@ -17,11 +17,11 @@ let csapatok = {
 
 
 // ideiglenes SBK-ra
-szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 26-án.`
+szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 27-én.`
 
 eventValue.addEventListener('change', () => {
     currentEvent = eventValue.options[eventValue.selectedIndex].text
-    szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 26-án.`
+    szovegTextbox.value = ` a gyorsaságimotoros Superbike-világbajnokság magyarországi futamának ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. július 27-én.`
 })
 // ideiglenes SBK-ra
 
