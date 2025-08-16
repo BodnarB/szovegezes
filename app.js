@@ -20,7 +20,7 @@ let csapatok = {
         3: "Pongó Marcell",
         35: "Nate Reuvers",
         2: "Tanoh Dez András",
-        12: "Valerio - Bodon Vincent",
+        12: "Valerio-Bodon Vincent",
         10: "Váradi Benedek",
         9: "Vojvoda Dávid"
     },
@@ -39,6 +39,18 @@ let csapatok = {
         77: "Mihai Maciuca"
     }
 }
+
+
+// ideiglenes kosarhoz
+function csapatObjToText(csapat) {
+    return Object.entries(csapat)
+        .map(([mezszam, nev]) => `${mezszam} ${nev}`)
+        .join('\n')
+}
+
+homeTeamText.value = csapatObjToText(csapatok.home);
+guestTeamText.value = csapatObjToText(csapatok.guest);
+
 
 
 // // ideiglenes SBK-ra
