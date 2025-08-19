@@ -30,7 +30,7 @@ let csapatok = {
         16: "Kristoffer Zachariassen",
         23: "Ötvös Bence",
         25: "Cebrail Makreckis",
-        33: "Cadu",
+        33: "Carlos Eduardo Lopes Cruz",
         36: "Gavriel Gilad Kanichowsky",
         47: "Callum O'Dowda",
         64: "Tóth Alex",
