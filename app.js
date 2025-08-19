@@ -12,31 +12,69 @@ let currentEvent = 'Superpole versenyén'
 
 let csapatok = {
     home: {
-        11: "Benke Szilárd",
-        21: "Filipovic Stefan",
-        14: "Golomán György",
-        5: "Pallai Tamás",
-        20: "Perl Zoltán",
-        3: "Pongó Marcell",
-        35: "Nate Reuvers",
-        2: "Tanoh Dez András",
-        12: "Valerio-Bodon Vincent",
-        10: "Váradi Benedek",
-        9: "Vojvoda Dávid"
+        90: "Dibusz Dénes",
+        99: "Gróf Dávid",
+        29: "Szécsi Gergő",
+        63: "Radnóti Dániel",
+        3: "Stefan Gartenmann",
+        21: "Botka Endre",
+        22: "Szalai Gábor",
+        27: "Ibrahim Cissé",
+        28: "Toon Raemaekers",
+        34: "Raul Gustavo",
+        44: "Ismail Aaneba",
+        54: "Kaján Norbert",
+        77: "Nagy Barnabás",
+        5: "Naby Keita",
+        15: "Mohammed Abu Fani",
+        16: "Kristoffer Zachariassen",
+        23: "Ötvös Bence",
+        25: "Cebrail Makreckis",
+        33: "Cadu",
+        36: "Gavriel Gilad Kanichowsky",
+        47: "Callum O'Dowda",
+        64: "Tóth Alex",
+        66: "Júlio Romao",
+        80: "Habib Maiga",
+        88: "Philippe Rommens",
+        7: "Daniel Arzani",
+        8: "Aleksandar Pesic",
+        10: "Jonathan Levi",
+        17: "Edgar Szevikjan",
+        19: "Varga Barnabás",
+        20: "Adama Traoré",
+        24: "Tosin Kehinde",
+        30: "Gruber Zsombor",
+        32: "Aleksandar Cirkovic",
+        74: "Szabó Szilárd",
+        75: "Lenny Joseph",
+        76: "Lisztes Krisztián"
     },
     guest: {
-        0: "Christian Nitu",
-        1: "Lucas Tohatan",
-        3: "Dragos Diculescu",
-        7: "Tudor Gheorghe",
-        8: "Kuti Nándor",
-        9: "Dragos Lungu",
-        10: "Bogdan Nicolescu",
-        11: "Stefan Grasu",
-        13: "Bogdan Popa",
-        15: "Emanuel Cate",
-        44: "Rares Uta",
-        77: "Mihai Maciuca"
+        1: "Sahrudin Magomedalijev",
+        97: "Fabijan Buntic",
+        99: "Mateusz Kochalski",
+        2: "Matheus Silva",
+        3: "Samy Mmaee",
+        13: "Bahlul Mustafazade",
+        18: "Dani Bolt",
+        26: "Amin Rzayev",
+        30: "Abbas Hüseynov",
+        44: "Elvin Jafarguliyev",
+        55: "Badavi Hüseynov",
+        81: "Kevin Medina",
+        6: "Chris Kouakou",
+        8: "Marko Jankovic",
+        10: "Abdellah Zoubir",
+        15: "Leandro Andrade",
+        20: "Kady",
+        21: "Olekszij Kascsuk",
+        27: "Tural Bayramov",
+        32: "Hikmat Jabrayilzade",
+        35: "Pedro Bicalho",
+        11: "Emmanuel Addai",
+        22: "Musa Gurbanli",
+        90: "Nariman Akhundzade"
     }
 }
 
@@ -48,13 +86,13 @@ function csapatObjToText(csapat) {
         .join('\n')
 }
 
-homeTeamText.value = csapatObjToText(csapatok.home);
-guestTeamText.value = csapatObjToText(csapatok.guest);
+homeTeamText.value = csapatObjToText(csapatok.home)
+guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = ` X és a román Y a férfi kosárlabda világbajnoki előselejtező B csoportjának 3. fordulójában játszott Magyarország-Románia mérkőzésen a szolnoki Tiszaligeti Sportcsarnokban 2025. augusztus 16-án.`
+szovegTextbox.value = `X, a Ferencváros (b) és Y, a Qarabag játékosa a labdarúgó Bajnokok Ligája selejtezőjének negyedik fordulójában játszott Ferencvárosi TC - Qarabag mérkőzésen a Groupama Arénában 2025. augusztus 19-én. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
