@@ -16,34 +16,37 @@
 
 <body>
     <div class='szoveg-div-box'>
-        <p class='text-p'>Szöveg</p>
+        <!-- <p class='text-p'>Szöveg</p> -->
         <!-- ideiglenes SBK-ra -->
-        <!-- <select name="event" id="event">
-            <option value="idomero">Superpole versenyén</option>
-            <option value="masodikverseny">második versenyén</option>
-        </select> -->
+        <select name="event" id="event">
+            <option value="1">első szabadedzésén</option>
+            <option value="2">délutáni edzésén</option>
+            <option value="3">második szabadedzésén</option>
+            <option value="4">első időmérő edzésén</option>
+            <option value="5">második időmérő edzésén</option>
+            <option value="6">sprintfutamán</option>
+        </select>
         <!-- ideiglenes SBK-ra -->
         <textarea name="szoveg-box" class='textbox szoveg-textbox' id="szoveg-box"
             placeholder='Szerkesztő rész'></textarea>
         <textarea class='textbox text-preview' placeholder='Végső szöveg'></textarea>
         <button id='main-text-copy'>Szöveg másolása</button>
-        <p>Robbie Keane, az FTC vezetőedzője</p>
-        <p>Gurban Gurbanov, a Qarabag vezetőedzője</p>
+
     </div>
     <div class='team-big-div'>
         <div class='texbox-div'>
-            <p class='team-text'>Home team <span class="kiemelt-p">(h)</span></p>
+            <!-- <p class='team-text'>Home team <span class="kiemelt-p">(h)</span></p> -->
             <input type="text" class='textbox-teamname textbox' id='teamname-h' placeholder='Klubnév/Ország'>
             <textarea name='home-team' class="home-team-text team-textbox textbox" id="home-team-text"
                 placeholder='Játékoskeret'></textarea>
-            <button disabled>Mentés</button>
+            <!-- <button disabled>Mentés</button> -->
         </div>
         <div class='texbox-div'>
-            <p class='team-text'>Guest team <span class="kiemelt-p">(g)</span></p>
+            <!-- <p class='team-text'>Guest team <span class="kiemelt-p">(g)</span></p> -->
             <input type="text" class='textbox-teamname textbox' id='teamname-g' placeholder='Klubnév/Ország'>
             <textarea name='guest-team' class="guest-team-text team-textbox textbox" id="guest-team-text"
                 placeholder='Játékoskeret'></textarea>
-            <button disabled>Mentés</button>
+            <!-- <button disabled>Mentés</button> -->
         </div>
     </div>
     <div class='sugo'>
