@@ -54,11 +54,11 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X a MotoGP Magyar Nagydíj első szabadedzésén a balatonfőkajári Balaton Park Circuit versenypályán 2025. augusztus 22-én. `
+szovegTextbox.value = `X a MotoGP Magyar Nagydíj második szabadedzésén a balatonfőkajári gyorsaságimotoros-világbajnokságon, a Balaton Park Circuit versenypályán 2025. augusztus 23-án. `
 
 eventValue.addEventListener('change', () => {
     currentEvent = eventValue.options[eventValue.selectedIndex].text
-    szovegTextbox.value = ` X a MotoGP Magyar Nagydíj ${currentEvent} a balatonfőkajári Balaton Park Circuit versenypályán 2025. augusztus 22-én.`
+    szovegTextbox.value = `X a MotoGP Magyar Nagydíj ${currentEvent} a balatonfőkajári gyorsaságimotoros-világbajnokságon, a Balaton Park Circuit versenypályán 2025. augusztus 23-án.`
 })
 // // ideiglenes SBK-ra
 
