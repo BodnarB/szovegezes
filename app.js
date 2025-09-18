@@ -12,31 +12,58 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        1: "A spanyol Jorge Martín, az Aprilia Racing versenyzője",
-        5: "A francia Johann Zarco, a Castrol Honda LCR versenyzője",
-        10: "Az olasz Luca Marini, a Honda HRC Castrol versenyzője",
-        12: "A spanyol Maverick Vinales, a Red Bull KTM Tech3 versenyzője",
-        20: "A francia Fabio Quartararo, a Monster Energy Yamaha MotoGP Team versenyzője",
-        21: "Az olasz Franco Morbidelli, a Pertamina Enduro VR46 Racing Team versenyzője",
-        23: "Az olasz Enea Bastianini, a Red Bull KTM Tech3 versenyzője",
-        25: "A spanyol Raúl Fernández, a Trackhouse MotoGP Team versenyzője",
-        33: "A dél-afrikai Brad Binder, a Red Bull KTM Factory Racing versenyzője",
-        35: "A thai Somkiat Chantra, az Idemitsu Honda LCR versenyzője",
-        36: "A spanyol Joan Mir, a Honda HRC Castrol versenyzője",
-        37: "A spanyol Pedro Acosta, a Red Bull KTM Factory Racing versenyzője",
-        42: "A spanyol Álex Rins, a Monster Energy Yamaha MotoGP Team versenyzője",
-        43: "Az ausztrál Jack Miller, a Prima Pramac Yamaha MotoGP versenyzője",
-        49: "Az olasz Fabio Di Giannantonio, a Pertamina Enduro VR46 Racing Team versenyzője",
-        54: "A spanyol Fermín Aldeguer, a BK8 Gresini Racing MotoGP versenyzője",
-        63: "Az olasz Francesco Bagnaia, a Ducati Lenovo Team versenyzője",
-        72: "Az olasz Marco Bezzecchi, az Aprilia Racing versenyzője",
-        73: "A spanyol Álex Márquez, a BK8 Gresini Racing MotoGP versenyzője",
-        79: "A japán Ai Ogura, a Trackhouse MotoGP Team versenyzője",
-        88: "A portugál Miguel Oliveira, a Prima Pramac Yamaha MotoGP versenyzője",
-        93: "A spanyol Marc Márquez, a Ducati Lenovo Team versenyzője"
+        1: "Milica Kostic",
+        21: "Major Janka",
+        22: "Barti Luca",
+        4: "Túróczy Anna",
+        5: "Brigita Goder",
+        6: "Andjela Frajtovic",
+        8: "Nyul Petra",
+        13: "Gagyor Zille",
+        20: "Ott Eszter",
+        23: "Németh Adél",
+        3: "Hanász Vanda",
+        7: "Zágonyi Barbara",
+        11: "Milagros Diaz",
+        14: "Fenyvesi Evelin",
+        19: "Kovács Petra",
+        27: "Jadyn Edwards",
+        33: "Kovács Eszter",
+        45: "Bozsik Linett",
+        88: "Czellér Dorottya",
+        10: "Diószegi Fanni",
+        18: "Czinege Eszter",
+        24: "Alesia Garcia",
+        25: "Nagy Viktória",
+        32: "Gégény Petra",
+        48: "Nagy Vanessza",
+        58: "Vlada Kubassova"
     },
     guest: {
-
+        1: "Tove Enblom",
+        24: "Pia Grinde-Hansen",
+        31: "Thiril Erichsen",
+        2: "Sara Horte",
+        3: "Michaela Kovacs",
+        5: "Selma Pettersen",
+        28: "Arna Eiriksdottir",
+        6: "Tilde Lindwall",
+        7: "Naina Inauen",
+        8: "Linn Vickius",
+        10: "Olaug Tvedten",
+        15: "Ylinn Tennebo",
+        16: "Ronja Arnesen",
+        17: "Ronja Aronsson",
+        19: "Saedis Heidarsdottir",
+        23: "Eline Hegg",
+        25: "Synne Hansen",
+        29: "Marika Bergman-Lundin",
+        30: "Stine Brekken",
+        9: "Elise Thorsnes",
+        11: "Marie Preus",
+        14: "Mawa Sesay",
+        21: "Karina Saevik",
+        22: "Tommine Enger"
     }
 }
 
@@ -54,7 +81,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X a MotoGP Magyar Nagydíj főfutamán a balatonfőkajári gyorsaságimotoros-világbajnokságon, a Balaton Park Circuit versenypályán 2025. augusztus 24-én. `
+szovegTextbox.value = `X, a Ferencváros (j) és Y, a Valerenga játékosa a női labdarúgó Bajnokok Ligája selejtezőjének harmadik fordulójában játszott FTC-Telekom - Valerenga FC mérkőzésen a III. kerületi TVE Sporttelepen 2025. szeptember 18-án. `
 
 eventValue.addEventListener('change', () => {
     currentEvent = eventValue.options[eventValue.selectedIndex].text
