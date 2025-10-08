@@ -12,54 +12,36 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        2: "Szmolek Apollónia",
-        4: "Tóvizi Petra",
-        5: "Csíkos Luca",
-        9: "Hársfalvi Júlia",
-        10: "Faragó Lea",
-        11: "Albek Anna",
-        17: "Kukely Anna",
-        18: "Kovács Anett",
-        19: "Márton Gréta",
-        24: "Töpfner Alexandra",
-        30: "Szemerey Zsófi",
-        38: "Vámos Petra",
-        42: "Klujber Katrin",
-        58: "Bordás Réka",
-        59: "Kuczora Csenge",
-        61: "Janurik Kinga",
-        71: "Petrus Mirtill",
-        74: "Bukovszky Anna",
-        77: "Simon Petra",
-        88: "Papp Nikoletta",
-        98: "Grosch Vivien"
+        1: "Szakonyi Dániel",
+        2: "Dusan Mandic",
+        3: "Manhercz Krisztián",
+        4: "Nagy Ákos",
+        5: "Vámos Márton",
+        6: "Edoardo Di Somma",
+        7: "Fekete Gergő",
+        8: "Sztilianósz Arjirópulosz Kanakákisz",
+        9: "Varga Vince",
+        10: "Vigvári Vendel",
+        11: "Jansik Szilárd",
+        12: "Miguel de Toro Domínguez",
+        13: "Vogel Soma",
+        14: "Vismeg Zsombor"
     },
     guest: {
-        1: "Johanna Bundsen",
-        2: "Clara Lerby",
-        3: "Nina Koppang",
-        7: "Linn Blohm",
-        8: "Jamina Roberts",
-        9: "Melissa Petrén",
-        11: "Tyra Axnér",
-        12: "Filippa Idéhn",
-        16: "Jessica Ryde",
-        19: "Anna Lagerquist",
-        21: "Evelina Eriksson",
-        23: "Emma Lindqvist",
-        24: "Nathalie Hagman",
-        27: "Thea Kylberg",
-        29: "Kristin Thorleifsdóttir",
-        33: "Isabel van Kerkvoorde",
-        35: "Sofia Hvenfelt",
-        36: "Sofie Börjesson",
-        38: "Elin Hansson",
-        40: "Vilma Matthijs Holmberg",
-        42: "Jenny Carlson",
-        49: "Olivia Löfqvist",
-        52: "Charité Mumbongo",
-        55: "Clara Petersson Bergsten",
-        97: "Linn Hansson"
+        1: "Gianmarco Nicosia",
+        2: "Francesco Di Fulvio",
+        3: "Alvaro Granados Ortega",
+        4: "Giacomo Cannella",
+        5: "Andrea Fondelli",
+        6: "Lukas Durik",
+        7: "Nicholas Presciutti",
+        8: "Luke Anthony Pavillard",
+        9: "Matteo Iocchi Gratta",
+        10: "Rino Buric",
+        11: "Francesco Condemi",
+        12: "Maxwell Bruce Irving",
+        13: "Tommaso Negri",
+        14: "Francesco Cassia"
     }
 }
 
@@ -77,7 +59,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X (b) és a svéd Y a Magyarország - Svédország női kézilabda felkészülési mérkőzésen a Tatabányai Multifunkciós Csarnokban 2025. szeptember 20-án. `
+szovegTextbox.value = `X, a Ferencváros és Y, a Pro Recco játékosa a férfi vízilabda Európai Szuperkupa döntőjében játszott FTC-Telekom Waterpolo - Pro Recco mérkőzésen a Komjádi Uszodában 2025. október 8-án. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
