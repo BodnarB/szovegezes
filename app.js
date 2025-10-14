@@ -71,7 +71,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X (j) és a török Y a férfi U21-es labdarúgó Európa-bajnoki selejtezőjének H csoportjában játszott Magyarország - Törökország mérkőzésen az Új Hidegkuti Nándor Stadionban 2025. október 14-én. `
+szovegTextbox.value = `X (j) és a török Y a labdarúgó U21-es Európa-bajnokság selejtezőjének H csoportjában játszott Magyarország - Törökország mérkőzésen az Új Hidegkuti Nándor Stadionban 2025. október 14-én. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
