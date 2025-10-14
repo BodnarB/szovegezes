@@ -71,7 +71,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Ferencváros és Y, a Pro Recco játékosa a férfi vízilabda Európai Szuperkupa döntőjében játszott FTC-Telekom Waterpolo - Pro Recco mérkőzésen a Komjádi Uszodában 2025. október 8-án. `
+szovegTextbox.value = `X (j) és a török Y a férfi U21-es labdarúgó Európa-bajnoki selejtezőjének H csoportjában játszott Magyarország - Törökország mérkőzésen az Új Hidegkuti Nándor Stadionban 2025. október 14-én. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
