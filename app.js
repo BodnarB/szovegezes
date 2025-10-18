@@ -12,60 +12,38 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        1: "Milica Kostic",
-        3: "Hanász Vanda",
-        4: "Túróczy Anna",
-        5: "Brigita Goder",
-        6: "Andjela Frajtovic",
-        7: "Zágonyi Barbara",
-        8: "Nyul Petra",
-        10: "Diószegi Fanni",
-        11: "Milagros Diaz",
-        13: "Gágyor Zille",
-        14: "Fenyvesi Evelin",
-        18: "Czinege Eszter",
-        19: "Kovács Petra",
-        20: "Ott Eszter",
-        21: "Major Janka",
-        22: "Barti Luca",
-        23: "Németh Adél",
-        24: "Alesia Garcia",
-        25: "Nagy Viktória",
-        27: "Jadyn Edwards",
-        32: "Gégény Petra",
-        33: "Kovács Eszter",
-        45: "Bozsik Linett",
-        48: "Nagy Vanessza",
-        58: "Vlada Kubassova",
-        88: "Czellér Dorottya"
+        8: "Daniel Mosindi",
+        11: "Baptiste Damatrin",
+        12: "Székely Márton",
+        13: "Josip Sarac",
+        17: "Ignacio Plaza Jimenez",
+        19: "Éles Benedek",
+        21: "Andó Arián",
+        22: "Papp Tamás",
+        24: "Sztraka Dániel",
+        26: "Pedro Rodríguez Alvarez",
+        30: "Demis Cosmin Grigoras",
+        54: "Matej Havran",
+        78: "Vajda Huba",
+        88: "Krakovszki Bence",
+        89: "Dmitry Zhitnikov",
+        96: "Patrick Andre Toniazzo Lemos"
     },
     guest: {
-        3: "Dominika Huvarová",
-        4: "Hallie Bergford",
-        5: "Katenna Kotrcová",
-        7: "Antonie Stárová",
-        8: "Sára Keresová",
-        9: "Eva Bartonová",
-        10: "Aneta Pochmanová",
-        11: "Michaela Khyrová",
-        12: "Eliska Sonntagová",
-        13: "Reagan Bridges",
-        15: "Tinatin Ambalia",
-        16: "Tori Hansen",
-        17: "Radka Paulenová",
-        18: "Stella Balázsová",
-        19: "Laura Retkesová",
-        21: "Adéla Trachtová",
-        22: "Franny Cerná",
-        23: "Elizabeth Ospeck",
-        24: "Klára Danícková",
-        25: "Victoria Havalec",
-        26: "Denisa Rancová",
-        27: "Julie Freislerová",
-        28: "Sára Straková",
-        30: "Somea Polozen",
-        42: "Jovana Dukic",
-        44: "Nikola Harantová"
+        1: "Halvor-Elias Naerland",
+        2: "Ole Naerland",
+        8: "Andreas Horst Haugseng",
+        9: "Rassin Haugseng",
+        10: "Tord Haugseng",
+        11: "Theodor Svensgard",
+        12: "Joachim Soholm Christensen",
+        13: "Tord Aksnes Lode",
+        28: "Casper Sundsbak-Gullaksen",
+        30: "John Thue",
+        37: "Bo Kristian Kverme",
+        66: "Eirik Gausland Aunet",
+        67: "Lars Sigve Hamre",
+        96: "Vetle Mellemstrand Bore"
     }
 }
 
@@ -83,7 +61,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Ferencváros (b) és Y, a Sparta Praha játékosa a női labdarúgó Európa Kupa selejtezőjének második fordulójában játszott  FTC-Telekom - Sparta Praha visszavágó mérkőzésen a III. kerületi TVE Sporttelepen 2025. október 16-án. `
+szovegTextbox.value = `X, a Tatabánya (j) és Y, a Naerbö játékosa a férfi kézilabda Európa Kupa második fordulójában játszott MOL Tatabánya KC - Naerbö IL visszavágó mérkőzésen a Tatabányai Multifunkciós Csarnokban 2025. október 18-án. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
