@@ -12,38 +12,42 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        8: "Daniel Mosindi",
-        11: "Baptiste Damatrin",
-        12: "Székely Márton",
-        13: "Josip Sarac",
-        17: "Ignacio Plaza Jimenez",
-        19: "Éles Benedek",
-        21: "Andó Arián",
-        22: "Papp Tamás",
-        24: "Sztraka Dániel",
-        26: "Pedro Rodríguez Alvarez",
-        30: "Demis Cosmin Grigoras",
-        54: "Matej Havran",
-        78: "Vajda Huba",
-        88: "Krakovszki Bence",
-        89: "Dmitry Zhitnikov",
-        96: "Patrick Andre Toniazzo Lemos"
+        50: "Bátori Bence",
+        51: "Joao Pedro Coimbra Serra Fernandes",
+        52: "Csorba Tamás",
+        53: "Dala Döme Máté",
+        54: "Bogdan Durdic",
+        55: "Angelos Foskolos",
+        56: "Gábor Lőrinc",
+        57: "Gyárfás Tamás Balázs",
+        58: "Lakatos Soma Benjamin",
+        59: "Mizsei Márton Zoltán",
+        60: "Ragács Benedek",
+        61: "Selley-Rauscher Domonkos",
+        62: "Sudár Levente",
+        63: "Szalai Péter Miklós",
+        64: "Tasi Dominik",
+        65: "Tóth Márton Zétény",
+        66: "Varnai Kristóf",
+        67: "Vida Zalán"
     },
     guest: {
-        1: "Halvor-Elias Naerland",
-        2: "Ole Naerland",
-        8: "Andreas Horst Haugseng",
-        9: "Rassin Haugseng",
-        10: "Tord Haugseng",
-        11: "Theodor Svensgard",
-        12: "Joachim Soholm Christensen",
-        13: "Tord Aksnes Lode",
-        28: "Casper Sundsbak-Gullaksen",
-        30: "John Thue",
-        37: "Bo Kristian Kverme",
-        66: "Eirik Gausland Aunet",
-        67: "Lars Sigve Hamre",
-        96: "Vetle Mellemstrand Bore"
+        50: "Joánisz Alafragkisz",
+        51: "Angyal Dániel",
+        52: "Joánisz Arapidisz",
+        53: "Dimitriosz Dimu",
+        54: "Joánisz Funtulisz",
+        55: "Konsztantinosz Geniduniasz",
+        56: "Nikolaosz Gkillasz",
+        57: "Konsztantinosz Guvisz",
+        58: "Konsztantinosz Kakarisz",
+        59: "Szpiridon Likudisz",
+        60: "Dimitriosz Nikolaidisz",
+        61: "Alekszandrosz Papanasztasziu",
+        62: "Evangelosz Purosz",
+        63: "Panajotisz Corcatosz",
+        64: "Emmanuil Zerdevasz",
+        65: "Zalánki Gergő"
     }
 }
 
@@ -61,7 +65,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Tatabánya (j) és Y, a Naerbö játékosa a férfi kézilabda Európa Kupa második fordulójában játszott MOL Tatabánya KC - Naerbö IL visszavágó mérkőzésen a Tatabányai Multifunkciós Csarnokban 2025. október 18-án. `
+szovegTextbox.value = `X, a Vasas (b) és Y, az Olimpiakosz játékosa a férfi vízilabda Bajnokok Ligája csoportkörének második fordulójában játszott VasasPlaket - Olimpiakosz mérkőzésen a Komjádi Uszodában 2025. október 28-án.  `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
