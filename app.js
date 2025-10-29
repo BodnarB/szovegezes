@@ -12,42 +12,56 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        50: "Bátori Bence",
-        51: "Joao Pedro Coimbra Serra Fernandes",
-        52: "Csorba Tamás",
-        53: "Dala Döme Máté",
-        54: "Bogdan Durdic",
-        55: "Angelos Foskolos",
-        56: "Gábor Lőrinc",
-        57: "Gyárfás Tamás Balázs",
-        58: "Lakatos Soma Benjamin",
-        59: "Mizsei Márton Zoltán",
-        60: "Ragács Benedek",
-        61: "Selley-Rauscher Domonkos",
-        62: "Sudár Levente",
-        63: "Szalai Péter Miklós",
-        64: "Tasi Dominik",
-        65: "Tóth Márton Zétény",
-        66: "Varnai Kristóf",
-        67: "Vida Zalán"
+        2: "Sperka László",
+        3: "Mousavi Pour Seyed Amir Reza",
+        4: "Balajthy Balázs",
+        6: "Benkő Márton",
+        7: "Tóth Marcell",
+        8: "Vágvölgyi Sándor",
+        9: "Miskolczi Barnabás",
+        10: "Adi Bence",
+        11: "Szogolovszkij Sámuel",
+        13: "Meszlényi Áron Bálint",
+        14: "Hughes Bence",
+        17: "Orlai Márton",
+        18: "Kurcz Balázs",
+        19: "Vincze Martin",
+        21: "Ádám Dorián",
+        22: "Sevinger Zsolt",
+        23: "Kádár Máté",
+        24: "Soóky Rómeó",
+        27: "Elek Ádám",
+        32: "Czerula Dávid Krisztián"
     },
     guest: {
-        50: "Joánisz Alafragkisz",
-        51: "Angyal Dániel",
-        52: "Joánisz Arapidisz",
-        53: "Dimitriosz Dimu",
-        54: "Joánisz Funtulisz",
-        55: "Konsztantinosz Geniduniasz",
-        56: "Nikolaosz Gkillasz",
-        57: "Konsztantinosz Guvisz",
-        58: "Konsztantinosz Kakarisz",
-        59: "Szpiridon Likudisz",
-        60: "Dimitriosz Nikolaidisz",
-        61: "Alekszandrosz Papanasztasziu",
-        62: "Evangelosz Purosz",
-        63: "Panajotisz Corcatosz",
-        64: "Emmanuil Zerdevasz",
-        65: "Zalánki Gergő"
+        1: "Gyollai Dániel",
+        3: "Varazdat Haroyan",
+        5: "Rácz László",
+        6: "Szőke Gergő",
+        7: "Makrai Gábor",
+        8: "Berecz Zsombor",
+        9: "Blessing Eleke",
+        10: "Kártik Bálint",
+        11: "Martin Slogar",
+        13: "Polgár Kristóf",
+        14: "Rasheed Sodiq",
+        15: "Major Marcell",
+        17: "Prosser Dániel",
+        18: "Schuszter Ronald",
+        19: "Deutsch László",
+        23: "Mykhailo Meskhi",
+        24: "Kun Olivér",
+        25: "Baranyai Nimród",
+        30: "Boros Zsombor",
+        38: "Sós Bence",
+        42: "Könyves Norbert",
+        44: "Szujó Attila",
+        66: "Ferencsik Bálint",
+        70: "Meshack Ubochioma",
+        72: "Bánfalvi Gergő",
+        78: "Balázsi Levente",
+        88: "Trencsényi Bence",
+        99: "Juhász Bence"
     }
 }
 
@@ -65,7 +79,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Vasas (b) és Y, az Olimpiakosz játékosa a férfi vízilabda Bajnokok Ligája csoportkörének második fordulójában játszott VasasPlaket - Olimpiakosz mérkőzésen a Komjádi Uszodában 2025. október 28-án.  `
+szovegTextbox.value = `X, a Kelen (b) és Y, a Kazincbarcika játékosa a labdarúgó MOL Magyar Kupa 4. fordulójában játszott Kelen SC - Kolorcity Kazincbarcika SC mérkőzésen a Kelen SC Sporttelepen 2025. október 29-én.  `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
