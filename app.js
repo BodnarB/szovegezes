@@ -12,56 +12,36 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        2: "Sperka László",
-        3: "Mousavi Pour Seyed Amir Reza",
-        4: "Balajthy Balázs",
-        6: "Benkő Márton",
-        7: "Tóth Marcell",
-        8: "Vágvölgyi Sándor",
-        9: "Miskolczi Barnabás",
-        10: "Adi Bence",
-        11: "Szogolovszkij Sámuel",
-        13: "Meszlényi Áron Bálint",
-        14: "Hughes Bence",
-        17: "Orlai Márton",
-        18: "Kurcz Balázs",
-        19: "Vincze Martin",
-        21: "Ádám Dorián",
-        22: "Sevinger Zsolt",
-        23: "Kádár Máté",
-        24: "Soóky Rómeó",
-        27: "Elek Ádám",
-        32: "Czerula Dávid Krisztián"
+        11: "Daria Dmitrieva",
+        13: "Janurik Kinga",
+        18: "Mette Tranborg",
+        20: "Emily Vogel",
+        21: "Márton Gréta",
+        22: "Orlane Kanor",
+        26: "Antje Angela Malestein",
+        38: "Simon Petra Anna",
+        41: "Balázs Bítia",
+        42: "Klujber Katrin Gitta",
+        51: "Vilde Mortensen Ingstad",
+        58: "Bordás Réka",
+        72: "Dragana Cvijic",
+        98: "Szilágyi Diána"
     },
     guest: {
-        1: "Gyollai Dániel",
-        3: "Varazdat Haroyan",
-        5: "Rácz László",
-        6: "Szőke Gergő",
-        7: "Makrai Gábor",
-        8: "Berecz Zsombor",
-        9: "Blessing Eleke",
-        10: "Kártik Bálint",
-        11: "Martin Slogar",
-        13: "Polgár Kristóf",
-        14: "Rasheed Sodiq",
-        15: "Major Marcell",
-        17: "Prosser Dániel",
-        18: "Schuszter Ronald",
-        19: "Deutsch László",
-        23: "Mykhailo Meskhi",
-        24: "Kun Olivér",
-        25: "Baranyai Nimród",
-        30: "Boros Zsombor",
-        38: "Sós Bence",
-        42: "Könyves Norbert",
-        44: "Szujó Attila",
-        66: "Ferencsik Bálint",
-        70: "Meshack Ubochioma",
-        72: "Bánfalvi Gergő",
-        78: "Balázsi Levente",
-        88: "Trencsényi Bence",
-        99: "Juhász Bence"
+        4: "Julie Mathiesen Scaglione",
+        5: "Emilie Hegh Arntzen",
+        6: "Cecilie Hojgaard Brandt",
+        7: "Stine Ruscetta Skogrand",
+        8: "Jamina Roberts",
+        12: "Filippa Idéhn",
+        14: "Emma Lindqvist",
+        16: "Amalie Milling",
+        17: "Simone Cathrine Petersen",
+        22: "Laerke Nolsoe Pedersen",
+        23: "Lina Thorstein Lützhoft",
+        24: "Béatrice Edwige",
+        27: "Thea Kylberg",
+        77: "Line Mai Norgaard Hougaard"
     }
 }
 
@@ -79,7 +59,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Kelen (b) és Y, a Kazincbarcika játékosa a labdarúgó MOL Magyar Kupa 4. fordulójában játszott Kelen SC - Kolorcity Kazincbarcika SC mérkőzésen a Kelen SC Sporttelepen 2025. október 29-én.  `
+szovegTextbox.value = `X, a Ferencváros (b) és Y, az Ikast Handbold a női kézilabda Bajnokok Ligája B csoportjának 6. fordulójában játszott FTC-Rail Cargo Hungaria - Ikast Handbold mérkőzésen az Érd Arénában 2025. november 1-jén. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
