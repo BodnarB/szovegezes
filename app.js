@@ -12,36 +12,62 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        11: "Daria Dmitrieva",
-        13: "Janurik Kinga",
-        18: "Mette Tranborg",
-        20: "Emily Vogel",
-        21: "Márton Gréta",
-        22: "Orlane Kanor",
-        26: "Antje Angela Malestein",
-        38: "Simon Petra Anna",
-        41: "Balázs Bítia",
-        42: "Klujber Katrin Gitta",
-        51: "Vilde Mortensen Ingstad",
-        58: "Bordás Réka",
-        72: "Dragana Cvijic",
-        98: "Szilágyi Diána"
+        1: "Riccardo Piscitelli",
+        3: "André Duarte",
+        5: "David Kobouri",
+        6: "Damian Rasak",
+        7: "Giorgi Beridze",
+        8: "Arijan Ademi",
+        9: "Fran Brodić",
+        10: "Tajti Mátyás",
+        11: "Horváth Krisztofer",
+        15: "Tiago Goncalves",
+        17: "Aljosa Matko",
+        18: "Tom Lacoux",
+        22: "Tamás Krisztián",
+        23: "Banai Dávid",
+        26: "Geiger Bálint",
+        30: "Joao Nunes",
+        31: "Dombó Dániel",
+        32: "George Ganea",
+        33: "Bese Barnabás",
+        34: "Milan Tucic",
+        39: "Gleofilo Vlijter",
+        44: "Gergényi Bence",
+        45: "Iuri Medeiros",
+        46: "Mándi Naruki Milán",
+        55: "Fiola Attila",
+        74: "Kaczvinszki Dominik",
+        88: "Matija Ljujic"
     },
     guest: {
-        4: "Julie Mathiesen Scaglione",
-        5: "Emilie Hegh Arntzen",
-        6: "Cecilie Hojgaard Brandt",
-        7: "Stine Ruscetta Skogrand",
-        8: "Jamina Roberts",
-        12: "Filippa Idéhn",
-        14: "Emma Lindqvist",
-        16: "Amalie Milling",
-        17: "Simone Cathrine Petersen",
-        22: "Laerke Nolsoe Pedersen",
-        23: "Lina Thorstein Lützhoft",
-        24: "Béatrice Edwige",
-        27: "Thea Kylberg",
-        77: "Line Mai Norgaard Hougaard"
+        2: "Stefan Vladoiu",
+        4: "Nils Oscar Alexander Abrahamsson",
+        5: "Paul-Viorel Anton",
+        6: "Tóth Rajmund",
+        7: "Ahmed Nadhir Benbouali",
+        10: "Claudiu-Vasile Bumba",
+        11: "Nfansu Njie",
+        16: "Megyeri Balázs",
+        17: "Schön Szabolcs",
+        18: "Senna Miangue",
+        19: "Oleksandr Pyshchur",
+        20: "Bíró Barnabás",
+        21: "Csinger Márk",
+        23: "Stéfli Dániel",
+        24: "Miljan Krpic",
+        25: "Deian Boldor",
+        27: "Vitális Milán",
+        37: "Urblik Norbert",
+        39: "Herczeg Marcell",
+        47: "Décsy Ádám",
+        64: "Brecska Dániel",
+        70: "Tollár Imre Adrián",
+        76: "Jovan Zivkovic",
+        80: "Zeljko Gavric",
+        90: "Bánáti Kevin",
+        96: "Huszár Marcell",
+        99: "Petrás Sámuel"
     }
 }
 
@@ -59,7 +85,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X, a Ferencváros (b) és Y, az Ikast Handbold a női kézilabda Bajnokok Ligája B csoportjának 6. fordulójában játszott FTC-Rail Cargo Hungaria - Ikast Handbold mérkőzésen az Érd Arénában 2025. november 1-jén. `
+szovegTextbox.value = `X, az Újpest és Y, a Győr játékosa a labdarúgó Fizz Liga 13. fordulójában játszott Újpest FC - ETO FC mérkőzésen a Szusza Ferenc Stadionban 2025. november 8-án. `
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
