@@ -12,52 +12,42 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        1: "Pécsi Ármin",
-        2: "Yaakobishvili Antal",
-        3: "Markgráf Ákos",
-        4: "Fenyő Noah",
-        5: "Dragóner Áron",
-        6: "Vingler László",
-        7: "Vajda Botond",
-        8: "Szűcs Tamás",
-        9: "Okeke Michael",
-        10: "Jurek Gábor",
-        11: "Molnár Ádin",
-        12: "Dala Martin",
-        13: "Kovacs Patrik",
-        14: "Bodnár János",
-        15: "Kaczvinszki Dominik",
-        16: "Dusinszki Szabolcs",
-        17: "Dénes Csánád Vilmos",
-        18: "Horváth Kevin",
-        19: "Farkas Bendegúz",
-        20: "Tuboly Máté",
-        21: "Átrok István",
-        22: "Lehoczki Bendegúz",
-        23: "Bánáti Kevin"
+        4: "Tóvizi Petra",
+        5: "Csíkos Luca",
+        9: "Hársfalvi Júlia",
+        10: "Faragó Lea",
+        11: "Albek Anna",
+        17: "Falusi-Udvardi Laura",
+        19: "Márton Gréta",
+        20: "Szmolek Apollónia",
+        28: "Papp Nikoletta",
+        31: "Szemerey Zsófi",
+        38: "Vámos Petra",
+        42: "Klujber Katrin",
+        58: "Bordás Réka",
+        59: "Kuczora Csenge",
+        61: "Janurik Kinga",
+        74: "Bukovszky Anna",
+        77: "Simon Petra",
+        88: "Grosch Vivien"
     },
     guest: {
-        1: "Toni Silic",
-        2: "Simun Hrgovic",
-        3: "Dominik Prpic",
-        4: "Luka Vuskovic",
-        5: "Teo Barisic",
-        6: "Luka Hodak",
-        7: "Marin Soticek",
-        8: "Adriano Jagusic",
-        9: "Leon Grgic",
-        10: "Lovro Zvonarek",
-        11: "Fabijan Krivak",
-        12: "Josip Cundekovic",
-        13: "Matia Barzic",
-        14: "Ivan Katic",
-        15: "Branko Pavic",
-        16: "Ante Kavelj",
-        17: "Luka Tunjic",
-        18: "Branimir Miacic",
-        19: "Fran Topic",
-        20: "Domagoj Bukvic",
-        23: "Jozo Vukman"
+        4: "Alieke Van Maurik",
+        8: "Lois Abbingh",
+        9: "Larissa Nüsser",
+        12: "Bo Van Wetering",
+        14: "Judith Van Der Helm",
+        18: "Kelly Dulfer",
+        19: "Merel Freriks",
+        22: "Zoë Sprengers",
+        24: "Romée Maarschalkweerd",
+        26: "Angela Malestein",
+        30: "Rinka Duijndam",
+        31: "Kelly Vollebregt",
+        38: "Yara Ten Holte",
+        44: "Nikita Van Der Vliet",
+        48: "Dione Housheer",
+        79: "Estavana Polman"
     }
 }
 
@@ -75,7 +65,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `X (b) és a horvát Y a labdarúgó U21-es Európa-bajnokság selejtezőjének H csoportjában játszott Magyarország - Horvátország mérkőzésen az Új Hidegkuti Nándor Stadionban 2025. november 18-án. `
+szovegTextbox.value = `XXXXX (b) és a holland YYYYY (j) a német-holland közös rendezésű női kézilabda-világbajnokság negyeddöntőjében a Hollandia - Magyarország mérkőzésen a rotterdami Ahoy Arénában 2025. december 10-én`
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
