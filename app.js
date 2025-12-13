@@ -12,43 +12,62 @@ let eventValue = document.querySelector('#event')
 
 let csapatok = {
     home: {
-        4: "Tóvizi Petra",
-        5: "Csíkos Luca",
-        9: "Hársfalvi Júlia",
-        10: "Faragó Lea",
-        11: "Albek Anna",
-        17: "Falusi-Udvardi Laura",
-        18: "Kovács Anett",
-        19: "Márton Gréta",
-        20: "Szmolek Apollónia",
-        28: "Papp Nikoletta",
-        31: "Szemerey Zsófi",
-        38: "Vámos Petra",
-        42: "Klujber Katrin",
-        58: "Bordás Réka",
-        59: "Kuczora Csenge",
-        61: "Janurik Kinga",
-        74: "Bukovszky Anna",
-        77: "Simon Petra",
-        88: "Grosch Vivien"
+        1: "Demjén Patrik",
+        2: "Varju Benedek",
+        3: "Szépe János",
+        4: "Beriashvili Ilia",
+        5: "Lehoczky Roland",
+        6: "Kata Mihály",
+        7: "Molnár Ádin",
+        8: "Németh Hunor",
+        10: "Bognár István",
+        11: "Jurina Marin",
+        12: "Bene Domonkos",
+        14: "Horváth Artúr",
+        15: "Széles Imre",
+        16: "Törőcsik Péter",
+        17: "Polievka Robert",
+        18: "Németh Krisztián",
+        20: "Kereszi Zalán",
+        21: "Átrok István Zalán",
+        22: "Bévárdi Zsombor",
+        23: "Plsek Jakub",
+        24: "Fadgyas Tamás",
+        25: "Kádár Tamás",
+        27: "Kovács Patrik",
+        28: "Szűcs Patrik",
+        29: "Balázs József",
+        30: "Vitályos Viktor"
     },
     guest: {
-        4: "Alieke Van Maurik",
-        8: "Lois Abbingh",
-        9: "Larissa Nüsser",
-        12: "Bo Van Wetering",
-        14: "Judith Van Der Helm",
-        18: "Kelly Dulfer",
-        19: "Merel Freriks",
-        22: "Zoë Sprengers",
-        24: "Romée Maarschalkerweerd",
-        26: "Angela Malestein",
-        30: "Rinka Duijndam",
-        31: "Kelly Vollebregt",
-        38: "Yara Ten Holte",
-        44: "Nikita Van Der Vliet",
-        48: "Dione Housheer",
-        79: "Estavana Polman"
+        1: "Riccardo Piscitelli",
+        4: "Fehér Csanád",
+        5: "Daviti Kobouri",
+        6: "Damian Rasak",
+        7: "Giorgi Beridze",
+        8: "Arijan Ademi",
+        9: "Fran Brodic",
+        10: "Tajti Mátyás",
+        11: "Horváth Krisztofer",
+        15: "Tiago Goncalves",
+        17: "Alijos Matko",
+        18: "Tom Lacoux",
+        21: "Helmich Pál",
+        22: "Tamás Krisztián",
+        23: "Banai Dávid",
+        26: "Geiger Bálint",
+        30: "Joao Nunes",
+        31: "Dombó Dávid",
+        32: "George Ganea",
+        33: "Bese Barnabás",
+        34: "Milan Tutic",
+        38: "Matija Ljujic",
+        39: "Gleofilo Vlijter",
+        44: "Gergényi Bence",
+        45: "Iuri Medeiros",
+        46: "Mándi Naruki Milán",
+        55: "Fiola Attila",
+        74: "Kaczvinszki Dominik"
     }
 }
 
@@ -66,7 +85,7 @@ guestTeamText.value = csapatObjToText(csapatok.guest)
 
 
 // // ideiglenes SBK-ra
-szovegTextbox.value = `XXXXX (b) és a holland YYYYY (j) a német-holland közös rendezésű női kézilabda-világbajnokság negyeddöntőjében a Hollandia - Magyarország mérkőzésen a rotterdami Ahoy Arénában 2025. december 10-én`
+szovegTextbox.value = `X, az MTK (b) és Y, az Újpest játékosa a labdarúgó Fizz Liga 17. fordulójában játszott MTK Budapest - Újpest FC mérkőzésen az Új Hidegkuti Nándor Stadionban  2025. december 13-án.`
 
 // eventValue.addEventListener('change', () => {
 //     currentEvent = eventValue.options[eventValue.selectedIndex].text
